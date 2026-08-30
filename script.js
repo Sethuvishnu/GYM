@@ -15,7 +15,7 @@ $('.button2').click(function(){
 
 const firstImageEl = document.querySelector('.first-image');
 const heroImg = new Image();
-heroImg.src = "./image/swagg1111.png";
+heroImg.src = "./image/swagg11111.jpg";
 heroImg.onload = () => {
   firstImageEl.classList.add('loaded');
 };
