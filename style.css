@@ -993,20 +993,19 @@ css animation
    
     }
 
-.location{
+.location {
   position: relative;
   background-image: url("image/tnnnn.png");
   top: 0%;
   left: 5%;
- 
   height: 75vh;
   width: 100vh;
-  filter: drop-shadow(20px 20px 0px rgb(255, 0, 225));
-  
+  filter: drop-shadow(20px 20px 0px rgb(255, 0, 225)) blur(20px);
+  transition: filter 0.5s ease-out;
+}
 
-  
-
-
+.location.loaded {
+  filter: drop-shadow(20px 20px 0px rgb(255, 0, 225)) blur(0px);
 }
 .location-slide{
   position: relative;

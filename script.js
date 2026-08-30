@@ -13,7 +13,12 @@ $('.button2').click(function(){
 
 });
 
-
+const locationEl = document.querySelector('.location');
+const img = new Image();
+img.src = "image/tnnnn.png";
+img.onload = () => {
+  locationEl.classList.add('loaded');
+};
 
 
 
