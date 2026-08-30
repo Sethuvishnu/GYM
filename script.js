@@ -13,11 +13,11 @@ $('.button2').click(function(){
 
 });
 
-const locationEl = document.querySelector('.location');
-const img = new Image();
-img.src = "image/tnnnn.png";
-img.onload = () => {
-  locationEl.classList.add('loaded');
+const firstImageEl = document.querySelector('.first-image');
+const heroImg = new Image();
+heroImg.src = "./image/swagg.png";
+heroImg.onload = () => {
+  firstImageEl.classList.add('loaded');
 };
 
 
