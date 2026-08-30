@@ -1,0 +1,19 @@
+{
+  "name": "gym-main",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "express": "^4.19.2",
+    "gsap": "^3.12.5",
+    "mysql": "^2.18.1",
+    "smooth-scrollbar": "^8.8.4"
+  }
+}

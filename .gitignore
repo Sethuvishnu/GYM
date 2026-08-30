@@ -1,0 +1,8 @@
+node_modules/
+OUTPUTS/
+
+image/to_be_edited/
+text/*.zip
+text/*.pdf
+text/READ ME.txt
+text/*/*.txt
